@@ -1,0 +1,8 @@
+{
+  "name": "技术部日志管理",
+  "description": "专业级技术部日志管理系统，支持全量本地化存储、结构化任务跟踪及多维数据统计。",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}
