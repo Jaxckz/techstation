@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+
+# ───── SENSITIVE / PRIVATE ─────
+
+# Database file (contains real user data, passwords, logs)
+data/
+data/*.sqlite
+*.sqlite
+*.db
+
+# Environment variables (API keys, secrets)
+.env
+.env.local
+.env.*.local
+
+# User-uploaded files (may contain private content)
+uploads/
+
+# Backup archives
+backups/
+
+# ZIP / archive files in project root
+*.zip
+*.tar.gz
+*.rar
+
+# ───── OS / Editor ─────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ───── Logs ─────
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
