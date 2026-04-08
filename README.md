@@ -75,10 +75,10 @@ techstatio/
 │   ├── api.ts             # 前端 API 客户端
 │   └── geminiService.ts   # Gemini AI 集成
 │
-├── data/                  # 运行时数据库目录（⚠️ 不进入 Git）
-├── uploads/               # 用户上传文件（⚠️ 不进入 Git）
-├── backups/               # 自动备份文件（⚠️ 不进入 Git）
-├── .env.local             # 环境变量（⚠️ 不进入 Git）
+├── data/                  # 运行时数据库目录
+├── uploads/               # 用户上传文件
+├── backups/               # 自动备份文件
+├── .env.local             # 环境变量
 └── vite.config.ts         # Vite 构建配置
 ```
 
